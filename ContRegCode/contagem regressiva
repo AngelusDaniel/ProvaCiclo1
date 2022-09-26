@@ -1,0 +1,19 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+
+
+int main() {
+    
+int a,i;
+ 
+ printf("informe um número inteiro positivo: ");
+ scanf ("%i", &a);
+     
+        for (i=a;i>=0; --i){
+            
+            printf ("%i ", i);
+            
+      }
+     
+ }
